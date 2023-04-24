@@ -1,6 +1,7 @@
 #include<stdio.h>
 /**
  * main - this function will print the statement in Mystr
+ * Return: 0 if function is successful
  */
 int main(void)
 {
@@ -8,5 +9,5 @@ int main(void)
 
 	puts(Mystr);
 
-	return(0);
+	return (0);
 }
