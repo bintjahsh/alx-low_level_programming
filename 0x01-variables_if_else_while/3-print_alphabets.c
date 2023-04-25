@@ -12,7 +12,7 @@ int main(void)
 	char ch = start;
 	char startU = 'A';
 	char endU = 'Z';
-	char chU = startU
+	char chU = startU;
 
 	while (ch <= end)
 	{
