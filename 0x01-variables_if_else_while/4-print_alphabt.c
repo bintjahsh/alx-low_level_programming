@@ -11,7 +11,7 @@ int main(void)
 	char end = 'z';
 	char ch = start;
 
-	for (ch = start, ch <= end, ch++)
+	for (ch = start; ch <= end; ch++)
 	{
 		if (ch != 'q' && ch != 'e')
 		{
