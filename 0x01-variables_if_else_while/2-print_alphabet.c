@@ -4,12 +4,13 @@
  *
  * Return: 0 if main is successful
  */
-int main (void)
+int main(void)
 {
 	char start = 'a';
 	char end = 'z';
 	char ch = start;
-	while(ch != end)
+
+	while (ch <= end)
 	{
 	putchar(ch);
 	ch++;
