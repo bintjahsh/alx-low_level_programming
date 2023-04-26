@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * orint_sign - checks the sign of a number
+ * print_sign - checks the sign of a number
  *
  * Return: 1 if positive. 0 if equal to 0 and -1 if negative
  */
