@@ -5,9 +5,9 @@
  *
  * Return: 0 if main is successful
  */
-int _islower(int ch)
+int _islower(int c)
 {
-	if (ch >= 'a' && ch <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
