@@ -1,13 +1,11 @@
-#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - prints the name of the program
  *
  * return: 0 if main is succesful
  */
-int main (int __attribute__((__unused__)) argc, char **argv[])
+int main (int __attribute__((__unused__)) argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 
